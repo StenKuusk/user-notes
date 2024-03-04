@@ -1,8 +1,6 @@
 const bcrypt = require('bcrypt')
 const User = require('../models/user')
 
-console.log('controller')
-
 const show = (req, res) => {
 	console.log('show')
 	res.send('show')

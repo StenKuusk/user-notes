@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended: true}))
 
 const usersRoutes = require('./routes/users')
 
-app.use('/users,', usersRoutes)
+app.use('/users', usersRoutes)
 
 app.get('/', (req, res) => {
 	res.send('test')
